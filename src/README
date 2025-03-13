@@ -1,0 +1,13 @@
+
+
+npm install
+
+npm install @mui/material @emotion/react @emotion/styled
+
+https://tailwindcss.com/docs/installation
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+
+react slick
+
+npm install react-router-dom

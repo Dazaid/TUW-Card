@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+.konradialgradient {
+  background: rgb(93, 28, 91);
+  background: radial-gradient(
+    circle,
+    rgba(93, 28, 91, 1) 0%,
+    rgba(28, 9, 37, 1) 32%,
+    rgba(0, 0, 0, 1) 76%,
+    rgba(162, 99, 4, 1) 100%
+  );
+}
+
+.konradialgradient2 {
+  background: rgb(93, 28, 91);
+  background: radial-gradient(
+    circle,
+    rgb(36, 8, 35) 0%,
+    rgba(28, 9, 37, 1) 32%,
+    rgba(0, 0, 0, 1) 76%,
+    rgb(39, 24, 1) 100%
+  );
+}
+
+.konradialgradient3 {
+  background: rgb(51, 38, 1);
+  background: -moz-linear-gradient(
+    27deg,
+    rgba(51, 38, 1, 1) 0%,
+    rgba(2, 2, 2, 1) 37%,
+    rgba(10, 4, 16, 1) 71%,
+    rgba(32, 11, 57, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    27deg,
+    rgba(51, 38, 1, 1) 0%,
+    rgba(2, 2, 2, 1) 37%,
+    rgba(10, 4, 16, 1) 71%,
+    rgba(32, 11, 57, 1) 100%
+  );
+  background: linear-gradient(
+    27deg,
+    rgba(51, 38, 1, 1) 0%,
+    rgba(2, 2, 2, 1) 37%,
+    rgba(10, 4, 16, 1) 71%,
+    rgba(32, 11, 57, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#332601",endColorstr="#200b39",GradientType=1);
+}
+
+.konradialgradient4 {
+  background: rgb(2, 2, 2);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(2, 2, 2, 1) 21%,
+    rgba(36, 7, 71, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(2, 2, 2, 1) 21%,
+    rgba(36, 7, 71, 1) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(2, 2, 2, 1) 21%,
+    rgba(36, 7, 71, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020202",endColorstr="#240747",GradientType=1);
+}
